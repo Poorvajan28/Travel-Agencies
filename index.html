@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Flyover Holidays - Trusted travel agency in Namakkal. Family tours, honeymoon packages, corporate trips, and more.">
+    <meta name="keywords" content="Travel, Namakkal, Tours, Flyover Holidays, Honeymoon, Corporate, Education">
+    <link rel="icon" type="image/png" href="Logo.jpg.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flyover Holidays - Premier Trip Organizers in Namakkal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="flyover img.png" alt="Flyover Holidays Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Flyover Holidays</h1>
+                    <p>Experience the World Like Never Before</p>
+                </div>
+            </div>
+            
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home" onclick="closeMenu()">Home</a></li>
+                    <li><a href="#about" onclick="closeMenu()">About Us</a></li>
+                    <li><a href="#services" onclick="closeMenu()">Services</a></li>
+                    <li><a href="#packages" onclick="closeMenu()">Packages</a></li>
+                    <li><a href="#testimonials" onclick="closeMenu()">Testimonials</a></li>
+                    <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h2>Discover Amazing Destinations</h2>
+            <p>Your Journey Begins Here with Flyover Holidays</p>
+            <button class="cta-button" onclick="bookNow()">
+                <i class="fas fa-calendar-plus"></i> Book Your Adventure
+            </button>
+        </div>
+        <div class="banner-overlay"></div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2><i class="fas fa-info-circle"></i> About Flyover Holidays</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to Flyover Holidays, your premier trip organizing company based in the beautiful city of Namakkal, Tamil Nadu. Founded and led by Mr. Dharsan, we specialize in creating unforgettable travel experiences that go beyond ordinary tourism.</p>
+                    <p>With years of expertise in the travel industry, we pride ourselves on crafting personalized adventures that cater to every type of traveler - from solo adventurers to large family groups, from corporate teams to educational institutions.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>Trusted & Reliable</h3>
+                            <p>Your safety and satisfaction are our top priorities</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <h3>Expert Planning</h3>
+                            <p>Meticulously planned itineraries for maximum enjoyment</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-headset"></i>
+                            <h3>24/7 Support</h3>
+                            <p>Round-the-clock assistance throughout your journey</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section services-section">
+        <div class="container">
+            <h2><i class="fas fa-concierge-bell"></i> Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3>Adventure Tours</h3>
+                    <p>Thrilling adventures for adrenaline seekers including trekking, rock climbing, and water sports</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Family Packages</h3>
+                    <p>Specially curated family-friendly destinations with activities for all age groups</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Corporate Tours</h3>
+                    <p>Team building trips and corporate retreats designed to enhance workplace relationships</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Educational Trips</h3>
+                    <p>Learning experiences for students and educational institutions with expert guides</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Honeymoon Packages</h3>
+                    <p>Romantic getaways to the most beautiful destinations for newlyweds</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Custom Itineraries</h3>
+                    <p>Personalized travel plans tailored to your specific interests and preferences</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="section packages-section">
+        <div class="container">
+            <h2><i class="fas fa-suitcase"></i> Popular Packages</h2>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="Dubai.jpg" alt="Dubai">
+                    </div>
+                    <div class="package-content">
+                        <h3>Dubai</h3>
+                        <p>Experience the serene beauty of Dubai with Burj Khalifa, and rich cultural heritage, making it a unique destination for travelers.</p>
+                        <div class="package-price">₹59,999</div>
+                        <button class="package-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="Singapore.jpg" alt="Singapore">
+                    </div>
+                    <div class="package-content">
+                        <h3>Singapore</h3>
+                        <p>Explore the stunning skyline, lush gardens, and rich multicultural heritage of Singapore, where modernity meets tradition in a vibrant urban landscape.</p>
+                        <div class="package-price">₹29,999</div>
+                        <button class="package-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="Thailand.jpg" alt="Thailand">
+                    </div>
+                    <div class="package-content">
+                        <h3>Thailand</h3>
+                        <p>Discover Thailand's enchanting temples, breathtaking beaches, and vibrant street markets, where rich traditions blend seamlessly with stunning natural beauty.</p>
+                        <div class="package-price">₹29,999</div>
+                        <button class="package-btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials-section">
+        <div class="container">
+            <h2><i class="fas fa-quote-left"></i> What Our Customers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Flyover Holidays made our family trip to Kerala absolutely unforgettable! The attention to detail and personalized service was exceptional. Mr. Dharsan and his team ensured everything was perfect."</p>
+                        <div class="testimonial-author">
+                            <h4>Priya Sharma</h4>
+                            <span>Family Traveler</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Our corporate retreat organized by Flyover Holidays was a huge success. The team building activities and accommodation were top-notch. Highly recommended for corporate groups!"</p>
+                        <div class="testimonial-author">
+                            <h4>Rajesh Kumar</h4>
+                            <span>Corporate Executive</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Amazing service and great prices! The Himalayan trek was challenging but so rewarding. The guides were knowledgeable and safety was always the priority."</p>
+                        <div class="testimonial-author">
+                            <h4>Anita Patel</h4>
+                            <span>Adventure Enthusiast</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2><i class="fas fa-phone"></i> Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Our Location</h3>
+                            <p>Namakkal, Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p><a href="tel:+919360205154">+91 9360205154</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-user-tie"></i>
+                        <div>
+                            <h3>Owner</h3>
+                            <p>Mr. Dharsan</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p><a href="mailto:flyoverholidaysofficial@gmail.com">flyoverholidaysofficial@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form action="https://formsubmit.co/flyoverholidaysofficial@gmail.com" method="POST">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-plane"></i> Flyover Holidays</h3>
+                    <p>Your trusted travel partner for unforgettable adventures</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/1ECVN9Y6Rt/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/flyoverholidays_official?igsh=bnUyejRwanNsdHp0" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Namakkal, Tamil Nadu</p>
+                    <p><i class="fas fa-phone"></i> +91 9360205154</p>
+                    <p><i class="fas fa-envelope"></i> flyoverholidaysofficial@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Flyover Holidays. All rights reserved. | Designed with ❤️ for travelers</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
